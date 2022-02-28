@@ -7,7 +7,7 @@
         "connectionTimeoutUnit": "WHEN_QUERY_COMPLETES",
         "maxConnections": 10,
         "connection": "'system'.'PRIVATE READ ONLY SMConnection'",
-        "callInterface": "OCI_12C",
+        "callInterface": "OCI",
         "description": "SampleAppLite connection pool to XML datasource. This connection pool points the database to the location where physical XML files are stored. The location uses the value of an RPD variable : BI_EE_HOME.\r\nThis variable needs to be correctly set in order for the server to connect to the files.",
         "writeBackConfig": {
           "bulkInsertBufferSize": 10485760,
